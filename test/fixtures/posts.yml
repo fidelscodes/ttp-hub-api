@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  applicant_id: 1
+  employer_id: 1
+  company_name: MyString
+  position_title: MyString
+  company_site: MyString
+  location: MyString
+  level: MyString
+  description: MyText
+  compensation: 1
+  requirements: MyText
+  skills: MyText
+  responsibilities: MyText
+  perks: MyText
+  application_link: MyText
+
+two:
+  applicant_id: 1
+  employer_id: 1
+  company_name: MyString
+  position_title: MyString
+  company_site: MyString
+  location: MyString
+  level: MyString
+  description: MyText
+  compensation: 1
+  requirements: MyText
+  skills: MyText
+  responsibilities: MyText
+  perks: MyText
+  application_link: MyText
