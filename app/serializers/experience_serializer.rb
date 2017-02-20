@@ -1,3 +1,7 @@
 class ExperienceSerializer < ActiveModel::Serializer
-  attributes :company_name, :position_title, :description, :start_date, :end_date, :volunteer
+  attributes :date, :company_name, :position_title, :description,  :volunteer
+
+  def date
+    "#{object.start_date.strftime("%B %Y")} - #{object.end_date.strftime("%B %Y")}"
+  end
 end
